@@ -79,7 +79,40 @@ label{
     background-color: red;
     width: 100px;
     height: 100px;
-    position:absolute;
-        top: 0px;
-        left: 0px;
+}
+#vert{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+#bleu{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+#jaune{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+#conteneur{
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    gap:5px;
+    width: 200px;
+    margin: auto;
+}
+#conteneur>div{
+    transform:skew(-20deg);
+}
+#conteneur>div:first-child{
+    margin-left: 40px;
+}
+#conteneur>div:last-child{
+    margin-left: -40px;
+}
+
+#conteneur>div:hover{
+    transform:skew(-20deg) scale(1.2);
 }
