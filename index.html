@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>L'écosystème Web</h1>
+    <h2 id="haut">1. Définition</h2>
+    <p>L'écosystème Web est composé de plusieurs technologies. Chacune a un role
+        bien défini. <strong>HTML</strong> pour déposer et structurer les objets graphiques, <em>CSS</em> 
+        pour mettre en forme ces derniers, et <strong>JavaScript</strong> pour ajouter l'interaction 
+        homme/machine. Ce sont des langages indisponsables pour commencer à apprendre
+        les frameworks tels que: Angular, React et Vu.js. Le dévéloppement Front-End
+        nécéssite des compétences fortes en tout ce qui est langages natifs.
+    </p>
+    <hr>
+    <h2>2. Les objets graphiques</h2>
+    <h3>2.1. Les liens</h3>
+    <label>Lien externe</label><a href="https://google.com">Google</a><br>
+    <label>Lien interne</label><a href="pages/produits.html">Produits</a><br>
+    <label>Lien interne</label><a href="#haut">Haut</a>
+    <h3>2.2. Les listes</h3>
+    <h4>2.2.1. Listes ordonnées</h4>
+    <ol type="I">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ol>
+    <h4>2.2.2. Listes non ordonnées</h4>
+    <ul type="square">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ul>
+    <h3>3. Les tableaux</h3>
+    <table border="1">
+        <thead>
+            <tr><th>Id</th><th>Nom</th><th>Prénom</th><th>sexe</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Hamzaoui</td><td>Karim</td><td class="sexe">M</td></tr>
+            <tr><td>2</td><td>Hazim</td><td>Sanaa</td><td class="sexe">F</td></tr>
+            <tr><td>3</td><td>Safir</td><td>Laila</td><td class="sexe">F</td></tr>
+        </tbody>
+    </table>
+    <h3>4. Les images</h3>
+    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png?utm_source=fr.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Image not found"><!--Image externe-->
+    <img src="images/css3.webp" alt="Image not found">
+    <h3>5. Les formulaires</h3>
+    <form>
+        <label>Nom</label><input type="text">
+        <label>Prénom</label><input type="text">
+        <label>Mot de passe</label><input type="password">
+        <label>Date de naissance</label><input type="date">
+        <label>Email</label><input type="email">
+        <label>Téléphone</label><input type="tel">
+        <label>Code de vérification</label><input type="number">
+        <label>Ville</label><select>
+            <option value="casablanca">Casablanca</option>
+            <option value="rabat">Rabat</option>
+            <option value="tanger">Tanger</option>
+        </select>
+        <label>Sexe</label>
+        Féminin<input type="radio" name="sexe" value="F">
+        Masculin<input type="radio" name="sexe" value="M">
+        <label>Loisirs</label>
+        Lecture<input type="checkbox" value="L">
+        Gaming<input type="checkbox" value="G">
+        Voyage<input type="checkbox" value="V">
+        Sport<input type="checkbox" value="S">
+        <button>Réinitialiser</button>
+        <button>Envoyer</button>
+    </form>
+    <h3>Les conteneurs</h3>
+    <div>Rouge</div>
+    <div>Vert</div>
+    <div>Bleu</div>
+    <div>Jaune</div>
+</body>
+</html>
