@@ -74,3 +74,12 @@ label{
 #loisirs > div{
     margin-left: 10px;
 }
+
+#rouge{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+        top: 0px;
+        left: 0px;
+}
