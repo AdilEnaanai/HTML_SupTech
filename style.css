@@ -1,9 +1,12 @@
 p{
-    border: 2px double blue;
     padding: 3px;
     text-align: justify;
+}
+#definition{
+   border: 2px double blue;
     border-radius: 5px;
     background-color: rgb(228, 242, 255);
+    display: flex;
 }
 h1{
     text-align: center;
@@ -42,7 +45,32 @@ img{
     border-radius: 50%;
     padding: 10px;
 }
+#html5-logo{
+    width: 70px;
+    height: 70px;
+}
 tbody > tr:hover{
     background-color: yellow;
     cursor: pointer;
+}
+label{
+    display: inline-block;
+    width: 150px;
+}
+#formulaire{
+    width: 50%;
+    margin: auto;
+    border: 2px solid rgb(3, 3, 150);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(228, 242, 255);
+}
+#loisirs{
+    display:flex;
+}
+#loisirs > div >div{
+    display:inline-block;
+}
+#loisirs > div{
+    margin-left: 10px;
 }
